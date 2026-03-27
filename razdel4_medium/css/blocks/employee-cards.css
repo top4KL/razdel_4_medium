@@ -1,0 +1,117 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;       
+    gap: 30px;              
+    justify-content: center;
+    max-width: 1300px;
+    margin: 60px auto;      
+}
+
+.employee-cards__item {
+    flex: 0 1 calc(50% - 15px);
+    min-height: 463px;
+    border-radius: 20px;
+    background-color: #F2F3EE;
+    padding: 30px;
+    box-sizing: border-box;    
+    display: flex;
+    flex-direction: column;
+}
+
+.employee-cards__job-title {
+    font-family: 'IBM Plex Sans';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #888;
+}
+
+.employee-cards__name {
+    margin: 5px 0 25px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #1D252D;
+}
+
+.employee-cards__content {
+    display: flex;
+    align-items: stretch;   
+    gap: 40px;
+    flex: 1;                
+}
+
+.employee-cards__img {
+    display: block;
+    width: 230px;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.employee-cards__info {
+    display: flex;
+    flex-direction: column; 
+    flex: 1;                
+}
+
+.employee-cards__text {
+    font-family: 'IBM Plex Sans';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1D252D;
+    margin: 0;
+    width: 100%;           
+}
+
+.employee-cards__text-experience {
+    font-family: 'IBM Plex Sans';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;     
+    color: #1D252D;
+    margin-top: 20px; 
+    margin-bottom: auto;    
+}
+
+.employee-cards__contacts {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 15px;
+    width: 100%;
+}
+
+.employee-cards__link {
+    font-family: 'IBM Plex Sans';
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: none;
+    color: #1D252D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+}
+
+.employee-cards__link--first {
+    background: #e2dfd5;
+    padding: 0 35px;
+    border-radius: 25px;
+}
+
+.employee-cards__link--second {
+    padding: 0 20px;
+}
+
+.employee-cards__text--centre{
+    text-align: center;
+}
+
+.employee-cards__text-experience--centre{
+    text-align: center;
+}
